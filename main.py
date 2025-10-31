@@ -4,7 +4,7 @@ from evaluation.humaneval_eval import evaluate_on_humanevalfix, DEFAULT_MODEL
 
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--model", default=DEFAULT_MODEL, help="HF model id (default: Qwen/Qwen3-0.6B)")
+    ap.add_argument("--model", default=DEFAULT_MODEL, help="HF model id (default: Qwen/Qwen2.5-0.5B-Instruct)")
     ap.add_argument("--limit", type=int, default=None, help="Evaluate only the first N tasks")
     ap.add_argument("--max-new-tokens", type=int, default=256)
     ap.add_argument("--retries", type=int, default=4, help="Internal reflection attempts")
