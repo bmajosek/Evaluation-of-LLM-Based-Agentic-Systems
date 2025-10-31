@@ -37,6 +37,12 @@ python main.py \
   --retries 3
 ```
 
+## Results
+
+The evaluation script saves detailed per-task results to `runs/results.jsonl`. The file included in this repository contains the results for the default `Qwen/Qwen2.5-0.5B-Instruct` model.
+
+The `results.ipynb` notebook also contains a direct comparison with a larger `Qwen/Qwen2.5-1.5B-Instruct` model, demonstrating how performance can vary with model size. Based on a small-scale experiment, the larger model shows stronger performance even with fewer retry attempts.
+
 ## Project Structure
 
 ```
