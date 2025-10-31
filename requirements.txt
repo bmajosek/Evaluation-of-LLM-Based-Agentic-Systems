@@ -1,0 +1,8 @@
+torch>=2.2.0
+transformers>=4.44.0
+langgraph>=0.2.34
+accelerate>=0.30.0
+sentencepiece
+protobuf
+langchain
+datasets>=2.20.0
